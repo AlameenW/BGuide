@@ -1,0 +1,60 @@
+const guideData = [
+  {
+    id: 1,
+    title: "Finding Your Business Niche: From Idea to Opportunity",
+    text: "Discovering the right business niche is crucial for startup success. Start by identifying your passions, skills, and market gaps. Research your target audience's pain points and validate your ideas through surveys and interviews. Look for underserved markets where you can provide unique value. Consider your competition and find ways to differentiate yourself. A well-defined niche helps you focus your marketing efforts and build a loyal customer base.",
+    category: "Business Models",
+    image: "https://images.unsplash.com/photo-1556155092-490a1ba16284?w=800",
+    submittedBy: "Sarah Chen, Business Strategist",
+  },
+  {
+    id: 2,
+    title: "Finding the Perfect Business Partner: A Step-by-Step Guide",
+    text: "Choosing the right business partner can make or break your venture. Start by clearly defining what you need in a partner - complementary skills, shared vision, or financial backing. Network within your industry, attend startup events, and leverage online platforms like LinkedIn. Conduct thorough due diligence: check their track record, references, and work style. Establish clear expectations, roles, and exit strategies before formalizing any partnership agreements.",
+    category: "Business Models",
+    image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800",
+    submittedBy: "Marcus Rodriguez, Startup Advisor",
+  },
+  {
+    id: 3,
+    title: "Building Your Dream Team: Hiring and Growing Your Startup",
+    text: "Growing your team strategically is essential for scaling your business. Start by identifying key roles that directly impact revenue and growth. Create detailed job descriptions that attract the right candidates. Use multiple recruitment channels: job boards, networking events, and employee referrals. Focus on cultural fit alongside technical skills. Implement a structured interview process and don't rush hiring decisions. Invest in onboarding and continuous development to retain top talent.",
+    category: "Product Development",
+    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800",
+    submittedBy: "Jennifer Kim, HR Consultant",
+  },
+  {
+    id: 4,
+    title: "Mastering Supplier Relationships: Negotiation and Management",
+    text: "Strong supplier relationships are the backbone of successful operations. Research and vet multiple suppliers before making decisions. Negotiate not just on price, but also on payment terms, quality standards, and delivery schedules. Build long-term partnerships by communicating clearly and paying on time. Diversify your supplier base to avoid dependency risks. Regular performance reviews and feedback sessions help maintain quality and identify improvement opportunities.",
+    category: "Sales",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800",
+    submittedBy: "David Park, Supply Chain Expert",
+  },
+  {
+    id: 5,
+    title: "Market Research Mastery: Understanding Your Customers",
+    text: "Effective market research drives informed business decisions. Start with secondary research using industry reports, competitor analysis, and online resources. Conduct primary research through surveys, focus groups, and one-on-one interviews with potential customers. Use tools like Google Analytics, social media insights, and customer feedback to gather data continuously. Analyze trends, identify opportunities, and validate assumptions before making major business moves.",
+    category: "Market Research",
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800",
+    submittedBy: "Dr. Lisa Wong, Market Analyst",
+  },
+  {
+    id: 6,
+    title: "Funding Your Startup: From Bootstrapping to Investment",
+    text: "Securing funding requires a clear strategy and compelling pitch. Start by determining how much capital you actually need and create detailed financial projections. Explore various funding options: personal savings, friends and family, angel investors, venture capital, crowdfunding, or small business loans. Prepare a strong business plan and pitch deck highlighting your market opportunity, traction, and team. Practice your pitch extensively and be prepared to answer tough questions about your business model and growth strategy.",
+    category: "Funding",
+    image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800",
+    submittedBy: "Robert Singh, Investment Advisor",
+  },
+  {
+    id: 7,
+    title: "Sales Strategy Fundamentals: Converting Leads to Customers",
+    text: "Developing an effective sales strategy is crucial for business growth. Start by defining your ideal customer profile and understanding their buying journey. Create a sales funnel that guides prospects from awareness to purchase. Develop compelling value propositions that address specific customer pain points. Train your sales team on consultative selling techniques and objection handling. Use CRM tools to track leads and measure conversion rates. Continuously analyze and optimize your sales process based on data and customer feedback.",
+    category: "Sales",
+    image: "https://images.unsplash.com/photo-1553484771-371a605b060b?w=800",
+    submittedBy: "Amanda Torres, Sales Director",
+  },
+];
+
+export default guideData;
