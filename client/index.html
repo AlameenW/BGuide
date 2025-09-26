@@ -3,14 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./public/style.css">
+    <link rel="stylesheet" href="/style.css" />
     <title>Client</title>
   </head>
   <body>
     <div id="app">
-      <header>
-        <h1>Buisness Guide</h1>
-      </header>
+      <!-- Homepage Content -->
+      <div id="homepage" class="page">
+        <header>
+          <h1>Business Guide</h1>
+          <p>All the advice you need to get started with any ideas!</p>
+        </header>
+
+        <main>
+          <div id="guides-container">Loading Guides...</div>
+        </main>
+      </div>
+
+      <!-- Individual Guide Page -->
+        <div id="guide-page" class="page" style="display: none;">
+            <nav>
+                <button onclick="navigateToHome()" style="
+                  background: #3498db; 
+                  color: white; 
+                  border: none; 
+                  padding: 10px 20px; 
+                  border-radius: 4px; 
+                  cursor: pointer; 
+                  margin: 20px;
+                ">← Back to Guides</button>
+            </nav>
+            
+            <div id="guide-details">
+                <!-- Individual guide content will load here -->
+            </div>
+        </div>
     </div>
   </body>
+  <script src="/script.js"></script>
 </html>

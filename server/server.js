@@ -1,7 +1,10 @@
 import express from "express";
+import cors from "cors";
 import guideData from "./data/guideData.js";
 
 const app = express();
+app.use(cors());
+
 app.use("/public", express.static("./public"));
 app.get("/guides", (req, res) => {
   res.json(guideData);
