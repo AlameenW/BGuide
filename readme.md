@@ -15,8 +15,8 @@ The following **required** functionality is completed:
 <!-- Make sure to check off completed functionality below -->
 - [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
 - [x] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
-  - [ ] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
-  - [ ]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
+  - [x] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+  - [x]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
 
 The following **optional** features are implemented:
 
@@ -24,7 +24,7 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a [walkthrough](https://imgur.com/gallery/bguide-web-103-project-1-PkZbLVb) of implemented required features.
+Here's a [walkthrough](https://imgur.com/gallery/web-103-project-2-MueWlK5) of implemented required features.
 
 ## License
 
