@@ -4,7 +4,7 @@ Submitted by: **Alameen Adeku**
 
 About this web app: **BGuide is a comprehensive business guidance platform that provides entrepreneurs with curated advice and resources for starting and growing their ventures. The web app features interactive guide cards covering various business topics like finding your niche, building teams, funding strategies, and market research. Users can browse guides by category, click on cards to view detailed information, and navigate seamlessly between different business topics using client-side routing.**
 
-Time spent: **4** hours
+Time spent: **8** hours
 
 ## Required Features
 
@@ -12,14 +12,11 @@ The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
 
+<!-- Make sure to check off completed functionality below -->
 - [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [x] **The web app displays a title**
-- [x] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
-- [x] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [x] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
-  - [x] _Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation_
-- [x] **The web app serves an appropriate 404 page when no matching route is defined**
-- [x] **The web app is styled using Picocss**
+- [x] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+  - [ ] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+  - [ ]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
 
 The following **optional** features are implemented:
 

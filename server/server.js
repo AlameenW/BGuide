@@ -1,15 +1,13 @@
 import express from "express";
 import cors from "cors";
 import guideData from "./data/guideData.js";
-
+import dotenv from './config/dotenv.js'
+import guideController from "./controllers/guideController.js";
 const app = express();
 app.use(cors());
 
 app.use("/public", express.static("./public"));
-app.get("/guides", (req, res) => {
-  res.json(guideData);
-});
-
+app.get("/guides", guideController.getGuides);
 app.get("/guides/:id", (req, res) => {
   const id = parseInt(req.params.id);
   const guide = guideData.find((g) => g.id == id);
