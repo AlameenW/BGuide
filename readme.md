@@ -18,10 +18,6 @@ The following **required** functionality is completed:
   - [x] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
   - [x]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
 
-The following **optional** features are implemented:
-
-- [x] The web app displays items in a unique format, such as cards rather than lists or animated list items
-
 ## Video Walkthrough
 
 Here's a [walkthrough](https://imgur.com/gallery/web-103-project-2-MueWlK5) of implemented required features.
